@@ -2118,7 +2118,7 @@ html&gt;body{padding:0}&lt;/style&gt;
             &lt;/div&gt;
             &lt;div class=&quot;proof-panel&quot; id=&quot;eligibility-panel&quot; hidden&gt;
               &lt;div class=&quot;proof-title&quot;&gt;&lt;h3&gt;Check your market categories&lt;/h3&gt;&lt;span class=&quot;tag&quot;&gt;Eligibility varies&lt;/span&gt;&lt;/div&gt;
-              &lt;div class=&quot;eligibility&quot;&gt;&lt;div class=&quot;eligibility-mark&quot; aria-hidden=&quot;true&quot;&gt;i&lt;/div&gt;&lt;div&gt;&lt;h3&gt;Your current categories aren’t eligible for a Verified Leads market&lt;/h3&gt;&lt;p&gt;Update the categories on your product listing to see whether a relevant market becomes available.&lt;/p&gt;&lt;a href=&quot;#&quot;&gt;Update Market Categories →&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+              &lt;div class=&quot;eligibility&quot;&gt;&lt;div class=&quot;eligibility-mark&quot; aria-hidden=&quot;true&quot;&gt;i&lt;/div&gt;&lt;div&gt;&lt;h3&gt;Your current categories aren’t eligible for a Verified Leads market&lt;/h3&gt;&lt;p&gt;You can update your product listing categories using the option below.&lt;/p&gt;&lt;a href=&quot;#&quot;&gt;Update Market Categories →&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
               &lt;p class=&quot;estimate-note&quot;&gt;This page keeps the same layout across plan and eligibility states; the recommended next step changes to match your account.&lt;/p&gt;
             &lt;/div&gt;
           &lt;/div&gt;
@@ -2192,8 +2192,8 @@ html&gt;body{padding:0}&lt;/style&gt;
       const scenarios = {
         &quot;free-eligible&quot;: { cta: &quot;Talk to sales about Pro&quot;, note: &quot;Unlock Verified Leads for your team&quot;, eligible: true, label: &quot;Free / Starter plan · PPL eligible&quot;, title: &quot;Meet real, qualified buyers matched to your product.&quot;, bottomTitle: &quot;Ready to reach more best-fit buyers?&quot; },
         &quot;pro-eligible&quot;: { cta: &quot;Start your first Verified Leads campaign&quot;, note: &quot;Create your first campaign&quot;, eligible: true, label: &quot;Pro plan · PPL eligible&quot;, title: &quot;Meet real, qualified buyers matched to your product.&quot;, bottomTitle: &quot;Ready to get your first campaign started?&quot; },
-        &quot;free-ineligible&quot;: { cta: &quot;Update Market Categories&quot;, note: &quot;Update your listing to check for eligible markets&quot;, eligible: false, label: &quot;Free / Starter plan · PPL not eligible&quot;, title: &quot;Find out if Verified Leads can fit your markets&quot;, bottomTitle: &quot;See whether your categories fit a market.&quot; },
-        &quot;pro-ineligible&quot;: { cta: &quot;Update Market Categories&quot;, note: &quot;Update your listing to check for eligible markets&quot;, eligible: false, label: &quot;Pro plan · PPL not eligible&quot;, title: &quot;Find out if Verified Leads can fit your markets&quot;, bottomTitle: &quot;See whether your categories fit a market.&quot; }
+        &quot;free-ineligible&quot;: { cta: &quot;Update Market Categories&quot;, note: &quot;Update your product listing categories&quot;, eligible: false, label: &quot;Free / Starter plan · PPL not eligible&quot;, title: &quot;Meet real, qualified buyers matched to your product.&quot;, bottomTitle: &quot;Interested in reaching in-market buyers?&quot; },
+        &quot;pro-ineligible&quot;: { cta: &quot;Update Market Categories&quot;, note: &quot;Update your product listing categories&quot;, eligible: false, label: &quot;Pro plan · PPL not eligible&quot;, title: &quot;Meet real, qualified buyers matched to your product.&quot;, bottomTitle: &quot;Interested in reaching in-market buyers?&quot; }
       };
       const cta = root.querySelector(&quot;#primary-cta&quot;);
       const bottomCta = root.querySelector(&quot;#bottom-cta&quot;);
